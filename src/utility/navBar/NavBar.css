@@ -1,0 +1,124 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav nav {
+  box-shadow: none;
+  min-height: 80px !important;
+}
+
+/* logo */
+
+.logo-box {
+  display: flex !important;
+  width: 160px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 0 10px 40px;
+}
+.logo-box h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.logo-box-img {
+  width: 42px;
+  height: 42px;
+  margin-top: 40px;
+}
+
+/* nav menu */
+.nav ul li {
+  color: white;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.nav .nav-non-link {
+  padding: 0 15px;
+}
+
+.nav-non-link:hover {
+  border-bottom: 2px solid white;
+  background-color: initial;
+}
+
+.nav ul li:hover {
+  border-bottom: 2px solid white;
+  background-color: initial;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.login-signin-button {
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #dddddd !important;
+  color: #222222 !important;
+  cursor: pointer !important;
+  height: 48px !important;
+  width: 95px;
+  border-radius: 24px;
+}
+.login-signin-button:hover {
+  background-color: #dddddd;
+}
+
+.svg-inline--fa {
+  width: 35px !important;
+  color: #717171;
+}
+
+/* dropdown */
+
+.nav-dropdown {
+  display: none;
+}
+.nav-dropdown-active {
+  display: block;
+  width: 280px !important;
+  height: 310px !important;
+  background-color: rgb(239, 239, 239);
+  right: 0;
+  margin-right: 40px;
+  margin-top: -15px;
+  border-radius: 14px;
+  position: absolute;
+  z-index: 10;
+}
+
+.ul-dropdown li {
+  padding: 12px !important;
+  padding-left: 16px !important;
+  color: #484848 !important;
+  font-size: 16px !important;
+  margin-right: 0 !important;
+}
+
+.ul-dropdown li a {
+  color: #484848 !important;
+}
+
+.ul-dropdown li:hover {
+  background-color: #e2dfdf !important;
+  border-bottom: none !important;
+}
+
+/* @media */
+
+@media only screen and (max-width: 768px) {
+  .login-signin-button,
+  #nav-mobile {
+    display: none !important;
+  }
+}

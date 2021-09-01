@@ -1,0 +1,81 @@
+img {
+  max-width: 100%;
+}
+.reservation-success .reservation-details h3 {
+  margin-top: 50px;
+}
+.reservation-success {
+  margin-top: 75px;
+}
+
+.confirmed {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.confirmed svg {
+  margin-right: 10px;
+}
+
+.confirmed .header-text {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.confirmed-detail .bordered {
+  border: 1px solid;
+}
+
+.confirmed-detail .upper {
+  margin-top: 30px;
+}
+.confirmed-detail .lower {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.charges.row {
+  margin-left: 15px;
+}
+
+.charges-text {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.row.col.total {
+  padding: 30px;
+  background-color: #ecefec;
+}
+
+.title-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.resv-image {
+  padding: 50px;
+}
+
+.divider {
+  margin: 20px 0;
+}
+.change-reserve-button button {
+  width: 100%;
+  font-weight: 700;
+  border-radius: 6px;
+  line-height: 20px;
+  height: 50px;
+  margin-top: 0px;
+  background: #fff;
+}
+
+.check-in-out .left {
+  text-align: left;
+  margin-left: 0;
+}
+
+.check-in-out .right {
+  text-align: right;
+}

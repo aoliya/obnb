@@ -1,0 +1,12 @@
+.main-container {
+  margin-top: 100px;
+}
+
+.activities-box .activity a {
+  color: #000;
+}
+.activities-box .activity img {
+  border-radius: 10px;
+  width: 100%;
+  max-height: 340px !important;
+}

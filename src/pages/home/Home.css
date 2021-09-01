@@ -1,0 +1,73 @@
+.container {
+  min-width: 86% !important;
+}
+
+.home {
+  padding: 0px !important;
+}
+
+.home .upper-fold {
+  height: 87vh !important;
+  background-image: url(../../utility/images/berlin.jpg);
+  background-position: 50%;
+  background-size: cover;
+  border: 1px solid transparent !important;
+}
+
+/* activities */
+
+.activities {
+  margin-top: 50px !important;
+  display: flex !important;
+  justify-content: center;
+}
+.activities-box {
+  width: 98% !important;
+}
+
+/* host */
+
+.host {
+  margin-top: 80px !important;
+}
+
+.venues {
+  min-width: 99% !important;
+  margin: 0 auto !important;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1110px) {
+  .search-box-form {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .host .host-main {
+    flex-direction: column !important;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  .host-main .host-box.black {
+    width: 97% !important;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 0px !important;
+  }
+
+  .host-box.image {
+    width: 97% !important;
+  }
+
+  .host-box.image img {
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 14px !important;
+  }
+
+  .host-main .host-box .host-info button {
+    background: yellow;
+  }
+}

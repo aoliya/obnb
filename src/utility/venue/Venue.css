@@ -1,0 +1,49 @@
+.venues-main {
+  margin-top: 120px;
+}
+.venues-main .main-header-text {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.venues {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between !important;
+  flex-wrap: wrap;
+}
+
+.venues .venue {
+  margin-bottom: 30px;
+  width: 25%;
+}
+
+.venues .venue a {
+  color: #000;
+}
+
+.venue .title {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
+
+.venues .venue img {
+  max-width: 99%;
+  border-radius: 8px;
+}
+
+.location-starts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-starts .location {
+  font-weight: 600;
+}
+
+.raiting .material-icons {
+  font-size: 22px !important;
+  color: #ff385c;
+}
+.raiting {
+  border: 2 solid black !important;
+}
